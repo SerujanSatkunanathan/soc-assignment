@@ -155,7 +155,7 @@
                         <p><strong>Area:</strong> ${countryData.area} sq km</p>
                         <img src="${countryData.flags.svg}" width="200">`;
                     
-                    document.getElementById('map').src = `https://www.google.com/maps/embed/v1/place?key=AIzaSyDxxOdV7PWyja6KHrD60UryQvgzh04tnws&q=${countryData.latlng[0]},${countryData.latlng[1]}`;
+                    document.getElementById('map').src = `https://www.google.com/maps/embed/v1/place?key=APIKEY=${countryData.latlng[0]},${countryData.latlng[1]}`;
                 });
         }
     </script>
